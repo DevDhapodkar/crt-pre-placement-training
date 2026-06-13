@@ -22,5 +22,14 @@ public class stringq1 {
 
         while (left < right) {
             if (str.charAt(left) == str.charAt(right)) {
+                left++;
+                right--;
+            } else {
+                isPalindromeUsingEqualOperator = false;
+                break;
+            }
+        }
 
-}}}}
+        System.out.println(isPalindromeUsingEqualOperator ? "Palindrome" : "Not Palindrome");
+    }
+}
