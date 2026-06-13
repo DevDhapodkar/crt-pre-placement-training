@@ -5,5 +5,12 @@ public class SingleInheretanceMain {
         B b1 = new B();
         b1.showB();
         b1.showA();
+    }
+}
 
-}}
+class A {
+    public void showA() {
+        System.out.println("This is class A");
+    }
+
+}
