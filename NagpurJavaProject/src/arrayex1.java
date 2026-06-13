@@ -11,5 +11,9 @@ public class arrayex1 {
             } else if (value > secondGreatest && value != greatest) {
                 secondGreatest = value;
             }
+        }
 
-}}}
+        System.out.println("Greatest element: " + greatest);
+        System.out.println("Second greatest element: " + secondGreatest);
+    }
+}
