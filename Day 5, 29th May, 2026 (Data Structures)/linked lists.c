@@ -13,5 +13,10 @@ int main(){
     head = temp;
     head->data = 10;
     head->next = NULL;
-
+    // create second node
+    temp = (struct Node*)malloc(sizeof(struct Node));
+    head->next = temp;
+    temp->data = 20;
+    temp->next = NULL;
+    return 0;
 }
