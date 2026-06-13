@@ -14,5 +14,11 @@ public class Main {
         char cityInitial = str.charAt(0);
         char nameInitial = name.charAt(0);
         System.out.println("First character of the city name: " + cityInitial);
+        System.out.println("First character of the name: " + nameInitial);
 
-}}
+        String cityLowerCase = str.toLowerCase();
+        String nameLowerCase = name.toLowerCase();
+        System.out.println("City name in lowercase: " + cityLowerCase);
+        System.out.println("Name in lowercase: " + nameLowerCase);
+    }
+}
