@@ -29,3 +29,17 @@ int smallestWord(const char *str, char *smallest) {
 
     return minLength;
 }
+int main() {
+    char str[100];
+    char smallest[100] = "";
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+    str[strcspn(str, "\n")] = '\0';
+    int length = smallestWord(str, smallest);
+    if (length > 0) {
+        printf("The smallest word in the string is: %s\n", smallest);
+    } else {
+        printf("No words found in the string.\n");
+    }
+    return 0;
+}
