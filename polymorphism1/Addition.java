@@ -30,4 +30,16 @@ public void add(int x, int y){
 
 }
 
+public void add(double x, double y){
+    System.out.println("Inside two parameter method");
+    double a = x;
+    double b = y;
+    double c = a+b;
+    System.out.println("Addition is : "+c);
+
 }
+    
+}
+
+    
+
