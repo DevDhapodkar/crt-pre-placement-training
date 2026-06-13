@@ -21,3 +21,26 @@ void insertAtEnd(struct Node** head, int data) {
     temp->next = newNode;
 }
 
+void insertAtBeginning(struct Node** head, int data) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = data;
+    newNode->next = *head;
+    *head = newNode;
+}
+
+void insertAtPosition(struct Node** head, int data, int position) {
+    if (position <= 1 || *head == NULL) {
+        insertAtBeginning(head, data);
+        return;
+    }
+
+    struct Node* temp = *head;
+    for (int i = 1; i < position - 1 && temp->next != NULL; i++) {
+        temp = temp->next;
+    }
+
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = data;
+    newNode->next = temp->next;
+    temp->next = newNode;
+}
