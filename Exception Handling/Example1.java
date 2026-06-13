@@ -9,5 +9,9 @@ public class Example1 {
     System.out.println("Result: " + c);
     System.out.println("End of the program");
         } catch (ArithmeticException e) {
-
-}}}
+            System.out.println("Error: " + e.getMessage());
+        }
+    
+    }
+    
+}
