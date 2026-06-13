@@ -28,5 +28,16 @@ int main() {
 
             j = 0;
         }
+    }
 
-}}
+    currentWord[j] = '\0';
+
+    if (strlen(currentWord) > maxLength) {
+        maxLength = strlen(currentWord);
+        strcpy(largestWord, currentWord);
+    }
+
+    printf("The largest word in the string is: %s\n", largestWord);
+
+    return 0;
+}
