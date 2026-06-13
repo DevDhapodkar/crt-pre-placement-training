@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+    int arr[10] = { 10, 88, 6,1, 87, 90, 33, 12, 32, 50};
+    int size = sizeof(arr)/sizeof(arr[0]);
+    for(int i=0;i<size-1;i++){
+        for(int j=0;j<size-i-1;j++){
+
+}}}
