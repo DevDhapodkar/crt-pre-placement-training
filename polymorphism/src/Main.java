@@ -8,4 +8,7 @@ public class Main {
         shape = new Rectangle();
         shape.draw();
 
-}}
+        shape = new Triangle();
+        shape.draw();
+    }
+}
