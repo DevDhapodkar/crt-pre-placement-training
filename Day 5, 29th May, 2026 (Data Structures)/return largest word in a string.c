@@ -13,5 +13,20 @@ int main() {
     char currentWord[100] = "";
 
     int maxLength = 0;
+    int j = 0;
 
-}
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (str[i] != ' ') {
+            currentWord[j++] = str[i];
+        } else {
+            currentWord[j] = '\0';
+
+            if (strlen(currentWord) > maxLength) {
+                maxLength = strlen(currentWord);
+                strcpy(largestWord, currentWord);
+            }
+
+            j = 0;
+        }
+
+}}
