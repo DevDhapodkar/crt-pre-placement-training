@@ -7,5 +7,8 @@ public class student {
         this.age = age;
     }
 
-
+    void displayDetails() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
 }
