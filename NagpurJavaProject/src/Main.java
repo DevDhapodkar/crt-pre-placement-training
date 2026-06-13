@@ -6,5 +6,13 @@ public class Main {
         System.out.println(str);
         System.out.println(name);
 
+        int citylength = str.length();
+        System.out.println("Length of the city name: " + citylength);
+        int namelength = name.length();
+        System.out.println("Length of the name: " + namelength);
+
+        char cityInitial = str.charAt(0);
+        char nameInitial = name.charAt(0);
+        System.out.println("First character of the city name: " + cityInitial);
 
 }}
