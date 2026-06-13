@@ -71,7 +71,7 @@ The Java modules focus on the core pillars of Object-Oriented Programming:
 * Explores abstract classes and methods, reference variables of abstract classes, and dynamic method dispatch using an `Animal` base class with concrete `Goat` and `Tiger` subclasses.
 
 ### 6. [Exception Handling](file:///Users/devdhapodkar/Desktop/Desk/Sem%20VI/CRT%20Pre-Placement%20Training/Exception%20Handling)
-* Implements robust exception handling using `try-catch` blocks and showcases catching standard run-time exceptions like `ArithmeticException` (`Example1.java`).
+* Implements robust exception handling using `try-catch` blocks and showcases catching standard run-time exceptions like `ArithmeticException` (`Example1.java`) and `NullPointerException` (`Example2.java`).
 
 ---
 
