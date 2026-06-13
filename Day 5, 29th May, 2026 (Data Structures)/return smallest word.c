@@ -13,5 +13,19 @@ int smallestWord(const char *str, char *smallest) {
 
             if (strlen(currentWord) < minLength && strlen(currentWord) > 0) {
                 minLength = strlen(currentWord);
+                strcpy(smallest, currentWord);
+            }
 
-}}}}
+            j = 0;
+        }
+    }
+
+    currentWord[j] = '\0';
+
+    if (strlen(currentWord) < minLength && strlen(currentWord) > 0) {
+        minLength = strlen(currentWord);
+        strcpy(smallest, currentWord);
+    }
+
+    return minLength;
+}
