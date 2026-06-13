@@ -17,5 +17,12 @@ public class Main {
         Student s5 = new Student();
         s5.setStudent(105, "Charlie", "Chemical Engineering");
         System.out.println("\nDetails of Student 2:");
-
-}}
+        s2.getStudent();
+        System.out.println("\nDetails of Student 3:");
+        s3.getStudent();
+        System.out.println("\nDetails of Student 4:");
+        s4.getStudent();
+        System.out.println("\nDetails of Student 5:");
+        s5.getStudent();
+    }
+}
