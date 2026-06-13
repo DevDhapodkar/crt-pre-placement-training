@@ -9,5 +9,9 @@ public class Student {
         name = n;
         branch = b;
     }
-
+    public void getStudent(){
+        System.out.println("Roll No: " + rollno);
+        System.out.println("Name: " + name);
+        System.out.println("Branch: " + branch);
+    }
 }
