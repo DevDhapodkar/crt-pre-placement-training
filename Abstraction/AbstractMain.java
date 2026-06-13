@@ -10,4 +10,8 @@ public class AbstractMain {
         Goat g1 = new Goat();
         g1.eat();
 
-}}
+        
+            
+        };
+    
+}
