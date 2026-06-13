@@ -13,5 +13,21 @@ public class Addition {
 
 }
 public void add(int x){
+    System.out.println("Inside one parameter method");
+    int a = x;
+    int b = x;
+    int c = a+b;
+    System.out.println("Addition is : "+c);
 
-}}
+}
+
+public void add(int x, int y){
+    System.out.println("Inside two parameter method");
+    int a = x;
+    int b = y;
+    int c = a+b;
+    System.out.println("Addition is : "+c);
+
+}
+
+}
