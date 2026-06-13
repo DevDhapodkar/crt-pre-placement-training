@@ -12,5 +12,10 @@ class A {
     public void showA() {
         System.out.println("This is class A");
     }
+}
 
+class B extends A {
+    public void showB() {
+        System.out.println("This is class B");
+    }
 }
