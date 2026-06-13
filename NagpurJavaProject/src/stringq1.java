@@ -10,5 +10,17 @@ public class stringq1 {
                 isPalindrome = false;
                 break;
             }
+            left++;
+            right--;
+        }
 
-}}}
+        System.out.println(isPalindrome ? "Palindrome" : "Not Palindrome");
+
+        left = 0;
+        right = str.length() - 1;
+        boolean isPalindromeUsingEqualOperator = true;
+
+        while (left < right) {
+            if (str.charAt(left) == str.charAt(right)) {
+
+}}}}
