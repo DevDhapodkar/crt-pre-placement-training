@@ -21,5 +21,14 @@ int main() {
     printf("Value of a using pointer is %d \n", *ptr);
     printf("value of ptr2 is %p \n", ptr2);
     printf("Value of b using pointer is %f \n", *ptr2);
+    printf("value of pptr is %p \n", pptr);
+    printf("Value of a using double pointer is %d \n", **pptr);
+    printf("Value of a using triple pointer is %d \n", ***ppptr);
+    printf("Value of a using quadruple pointer is %d \n", ****pppptr);
+    printf("Value of a using five pointer is %d \n", *****ppppptr);
+    printf("Value of a using six pointer is %d \n", ******pppppptr);
+    int *******ppppppptr = &pppppptr;
+    printf("Value of a using seven pointer is %d \n", *******ppppppptr);
 
+    return 0;
 }
