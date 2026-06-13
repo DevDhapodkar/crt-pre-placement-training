@@ -48,4 +48,23 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n) {
         m++;
     }
 
+    
+
+    for (j = 0; j < total - 1; j++) {
+
+        for (k = 0; k < total - j - 1; k++) {
+
+            if (nums1[k] > nums1[k + 1]) {
+
+                temp = nums1[k];
+
+                nums1[k] = nums1[k + 1];
+
+                nums1[k + 1] = temp;
+
+            }
+
+        }
+
+    }
 }
