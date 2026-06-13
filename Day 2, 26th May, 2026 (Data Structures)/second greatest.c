@@ -16,5 +16,11 @@ int main(){
         }
     }
     second_greatest=arr[0];
-
+    for(i=1;i<5;i++){
+        if(arr[i]>second_greatest && arr[i]<greatest){
+            second_greatest=arr[i];
+        }
+    }
+    printf("Second greatest element in the array is: %d", second_greatest);
+    return 0;
 }
