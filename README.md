@@ -15,6 +15,7 @@ The repository is organized day-wise for Data Structures and topic-wise for Obje
 ├── Day 5, 29th May, 2026 (Data Structures)/    # Linked lists, reverse LL, structures, and string operations in C
 ├── Abstraction/                                # Abstract classes, abstract methods & dynamic method dispatch in Java
 ├── Classes and Objects/                        # Java OOP basics: Main and Student classes
+├── Exception Handling/                         # Try-catch blocks and ArithmeticException handling in Java
 ├── Inheretance/                                # Inheritance principles and implementation in Java
 ├── Polymorphism/                               # Shapes hierarchy (Shape, Circle, Rectangle, Triangle) in Java
 ├── Polymorphism1/                              # Method overloading & overriding examples in Java
@@ -68,6 +69,9 @@ The Java modules focus on the core pillars of Object-Oriented Programming:
 
 ### 5. [Abstraction](file:///Users/devdhapodkar/Desktop/Desk/Sem%20VI/CRT%20Pre-Placement%20Training/Abstraction)
 * Explores abstract classes and methods, reference variables of abstract classes, and dynamic method dispatch using an `Animal` base class with concrete `Goat` and `Tiger` subclasses.
+
+### 6. [Exception Handling](file:///Users/devdhapodkar/Desktop/Desk/Sem%20VI/CRT%20Pre-Placement%20Training/Exception%20Handling)
+* Implements robust exception handling using `try-catch` blocks and showcases catching standard run-time exceptions like `ArithmeticException` (`Example1.java`).
 
 ---
 
