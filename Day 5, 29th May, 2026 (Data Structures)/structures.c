@@ -16,5 +16,11 @@ struct Student *ptr = &student1;
 
 printf("+-------------------------+\n");
 printf("|    Student 1 Details    |\n");
+printf("+-------------------------+\n");
+printf("| Roll Number | %-10d |\n", ptr->rollNumber);
+printf("| Age         | %-10d |\n", ptr->age);
+printf("| Grade       | %-10.2f |\n", ptr->grade);
+printf("+-------------------------+\n");
 
+    return 0;
 }
