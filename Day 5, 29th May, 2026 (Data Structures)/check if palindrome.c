@@ -20,4 +20,11 @@ int main() {
         right--;
     }
 
+    if (isPalindrome) {
+        printf("The string is a palindrome.\n");
+    } else {
+        printf("The string is not a palindrome.\n");
+    }
+
+    return 0;
 }
