@@ -11,5 +11,9 @@ int main(){
     greatest=arr[0];
     for(i=1;i<5;i++){
         if(arr[i]>greatest){
-
-}}}
+            greatest=arr[i];
+        }
+    }
+    printf("Greatest element in the array is: %d", greatest);
+    return 0;
+}
