@@ -12,5 +12,10 @@ int main(){
             }
             else{
                 printf("  ");
-
-}}}}
+            }
+            k++;
+        }
+        printf("\n");
+    }
+    return 0;
+}
