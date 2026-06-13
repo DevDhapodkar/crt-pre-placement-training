@@ -21,5 +21,14 @@
     for (int i=0 ; i< size ; i++)
     {
         //printf("%d", arr [i]);
-
-}}
+        if(arr[i] == candidate){
+            count++;
+        }
+    }
+    if(count > size/2){
+        printf("Majority element is: %d", candidate);
+    }else{
+        printf("No majority element found");
+    }
+    return 0;
+ }
