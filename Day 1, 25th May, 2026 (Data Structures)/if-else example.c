@@ -9,5 +9,9 @@ int main(){
     }
     else if(a < b){
         printf("a is less than b");
-
-}}
+    }
+    else{
+        printf("a is equal to b");
+    }
+    return 0;
+}
