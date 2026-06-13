@@ -1,0 +1,14 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore compiled C/C++ debug symbols and binary folders
+*.dSYM/
+**/output/
+build/
+bin/
+
+# Ignore compiled Java classes and packages
+*.class
+
+# Ignore local IDE settings (if needed)
+.vscode/
