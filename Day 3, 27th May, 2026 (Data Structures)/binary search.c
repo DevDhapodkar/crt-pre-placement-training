@@ -28,5 +28,16 @@ int main(){
     arr[3]=40;
     arr[4]=50;  
     printf("Enter the element to be searched: ");
-
-}
+    scanf("%d", &key);
+    low = 0;
+    high = max_size - 1;
+    mid = binarySearch(arr, low, high, key);
+    if(mid != -1){
+        printf("Element found at index: %d", mid);
+    }
+    else{
+        printf("Element not found in the array.");
+    }
+    return 0;
+}    
+          
