@@ -13,6 +13,7 @@ The repository is organized day-wise for Data Structures and topic-wise for Obje
 ├── Day 2, 26th May, 2026 (Data Structures)/    # Arrays, basic search, and pattern programs in C
 ├── Day 3, 27th May, 2026 (Data Structures)/    # Search and Sort algorithms in C
 ├── Day 5, 29th May, 2026 (Data Structures)/    # Linked lists, reverse LL, structures, and string operations in C
+├── Abstraction/                                # Abstract classes, abstract methods & dynamic method dispatch in Java
 ├── Classes and Objects/                        # Java OOP basics: Main and Student classes
 ├── Inheretance/                                # Inheritance principles and implementation in Java
 ├── Polymorphism/                               # Shapes hierarchy (Shape, Circle, Rectangle, Triangle) in Java
@@ -64,6 +65,9 @@ The Java modules focus on the core pillars of Object-Oriented Programming:
 
 ### 4. [Nagpur Java Project](file:///Users/devdhapodkar/Desktop/Desk/Sem%20VI/CRT%20Pre-Placement%20Training/NagpurJavaProject)
 * Standard implementation problems utilizing core JDK libraries for String formatting, array parsing, and constructor overloading.
+
+### 5. [Abstraction](file:///Users/devdhapodkar/Desktop/Desk/Sem%20VI/CRT%20Pre-Placement%20Training/Abstraction)
+* Explores abstract classes and methods, reference variables of abstract classes, and dynamic method dispatch using an `Animal` base class with concrete `Goat` and `Tiger` subclasses.
 
 ---
 
