@@ -7,5 +7,8 @@ int main()
     // we are swapping the values of a and b
     printf("Before swapping: a = %d , b = %d ",a,b);
     temp = a;
-
+    a = b;
+    b = temp;
+    printf("\nAfter swapping: a = %d , b = %d ",a,b);
+    return 0;
 }
