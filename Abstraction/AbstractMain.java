@@ -3,5 +3,11 @@ package Abstraction;
 public class AbstractMain {
     public static void main(String[] args) {
 //dynamic method dispatch    
+        Animal a1; 
+        a1 = new Tiger();
+        a1.eat();
+//dynamic method dispatch
+        Goat g1 = new Goat();
+        g1.eat();
 
 }}
