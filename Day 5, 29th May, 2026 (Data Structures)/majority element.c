@@ -9,5 +9,17 @@
     {
         if(count == 0){
             candidate = arr[i];
+        }
+        if(arr[i] == candidate){
+            count++;
+        }else{
+            count--;
+        }
+    }
+     count = 0;
 
-}}}
+    for (int i=0 ; i< size ; i++)
+    {
+        //printf("%d", arr [i]);
+
+}}
