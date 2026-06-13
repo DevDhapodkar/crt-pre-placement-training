@@ -7,5 +7,7 @@ int main(){
         result = num * i;
         printf("%d x %d = %d\n", num, i, result);
     }
+    return 0;   
+
 
 }
