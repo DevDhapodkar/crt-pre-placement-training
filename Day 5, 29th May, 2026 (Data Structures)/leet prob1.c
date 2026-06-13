@@ -22,4 +22,30 @@ Example 3:
 
 Input: nums1 = [0], m = 0, nums2 = [1], n = 1
 Output: [1]
- */
+Explanation: The arrays we are merging are [] and [1].
+The result of the merge is [1].
+Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
+ 
+
+Constraints:
+
+nums1.length == m + n
+nums2.length == n
+0 <= m, n <= 200
+1 <= m + n <= 200
+-109 <= nums1[i], nums2[j] <= 109
+ 
+
+Follow up: Can you come up with an algorithm that runs in O(m + n) time?*/
+void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n) {
+    int i;
+    int j;
+    int k;
+    int temp;
+    int total = m+n;
+    for(i=0; i< n; i++){
+        nums1[m] = nums2[i] ;
+        m++;
+    }
+
+}
