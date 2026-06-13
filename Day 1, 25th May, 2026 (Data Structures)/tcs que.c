@@ -7,5 +7,7 @@ int main(){
         result = num1 * i;
         printf("%d ", result);
         result = num2 * i;
-
-}}
+        printf("%d ", result);
+    }
+    return 0;
+}
