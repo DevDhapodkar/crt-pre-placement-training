@@ -16,5 +16,12 @@ int main(){
     for(i=0;i<max_size;i++){
         if(arr[i]==key){
             printf("Element found at index: %d", i);
-
-}}}
+            flag = 1;
+            return 0;
+        }
+    }
+    if(flag == 0){
+        printf("Element not found in the array.");
+    }
+    return 0;
+}
