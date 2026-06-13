@@ -8,5 +8,8 @@ int main()
     printf(" Float = %f\n", f);
     printf(" Char = %c\n", c);
     //these are the three primitive data types in C language whereas 
+    //in C++ we have more data types like double
 
+
+    return 0;
 }
